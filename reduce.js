@@ -7,6 +7,11 @@ let output = [];
 output = arr.map((item) => {
     return item.f +" " + item.l;
 });
+
+output = arr.filter((item)=>{
+    return item.a%3 == 0
+
+});
 console.log(output);
 
  output = arr.reduce(function(acc, curr) {

@@ -40,14 +40,14 @@ console.log(printMyName());
 
 
 
-// "use strict";
-// var zipcode = {
-//     checkZipcode : function() {
-//         console.log(this);
-//         function updateZipCode() {
-//             console.log(this);
-//         }
-//         updateZipCode.call(this);
-//     }
-// }
-// zipcode.checkZipcode();
+"use strict";
+var zipcode = {
+    checkZipcode : function() {
+        console.log(this);
+        function updateZipCode() {
+            console.log(this);
+        }
+        updateZipCode.call(this);
+    }
+}
+zipcode.checkZipcode();

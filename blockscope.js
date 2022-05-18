@@ -4,6 +4,6 @@
     const c = 1000;
 }
 
-console.log(a);
-console.log(b);
-console.log(c);
+console.log(a);//10
+console.log(b);//Reference Error
+console.log(c);//Same ReferenceError
